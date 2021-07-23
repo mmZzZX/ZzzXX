@@ -1,0 +1,282 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local login = Instance.new("ImageLabel")
+local Button = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local box = Instance.new("ImageLabel")
+local password = Instance.new("TextBox")
+local main = Instance.new("ImageLabel")
+local Roundify = Instance.new("ImageLabel")
+local CrashSwag = Instance.new("TextButton")
+local Roundify_2 = Instance.new("ImageLabel")
+local GodX = Instance.new("TextButton")
+local Roundify_3 = Instance.new("ImageLabel")
+local RacePrem = Instance.new("TextButton")
+local Roundify_4 = Instance.new("ImageLabel")
+local AutoDrop = Instance.new("TextButton")
+local Roundify_5 = Instance.new("ImageLabel")
+local DhFuck = Instance.new("TextButton")
+local Roundify_6 = Instance.new("ImageLabel")
+local Unban = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+login.Name = "login"
+login.Parent = ScreenGui
+login.AnchorPoint = Vector2.new(0.5, 0.5)
+login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+login.BackgroundTransparency = 1.000
+login.BorderSizePixel = 0
+login.Position = UDim2.new(0.642695725, 0, 0.375900328, 0)
+login.Size = UDim2.new(0.339479446, 24, 0.191422701, 24)
+login.Image = "rbxassetid://3570695787"
+login.ImageColor3 = Color3.fromRGB(67, 67, 67)
+login.ScaleType = Enum.ScaleType.Slice
+login.SliceCenter = Rect.new(100, 100, 100, 100)
+login.SliceScale = 0.120
+
+Button.Name = "Button"
+Button.Parent = login
+Button.AnchorPoint = Vector2.new(0.5, 0.5)
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button.BackgroundTransparency = 1.000
+Button.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Button.Position = UDim2.new(0.498144895, 0, 0.842867792, 0)
+Button.Size = UDim2.new(0.38311705, 8, 0.174859703, 8)
+Button.Image = "rbxassetid://3570695787"
+Button.ImageColor3 = Color3.fromRGB(44, 44, 44)
+Button.ScaleType = Enum.ScaleType.Slice
+Button.SliceCenter = Rect.new(100, 100, 100, 100)
+Button.SliceScale = 0.040
+
+TextButton.Parent = Button
+TextButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.BorderColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.00365543365, 0, 0.0273593664, 0)
+TextButton.Size = UDim2.new(0, 176, 0, 41)
+TextButton.Font = Enum.Font.SourceSansLight
+TextButton.Text = "Login"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.TextWrapped = true
+
+box.Name = "box"
+box.Parent = login
+box.AnchorPoint = Vector2.new(0.5, 0.5)
+box.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+box.BackgroundTransparency = 1.000
+box.BorderColor3 = Color3.fromRGB(44, 44, 44)
+box.Position = UDim2.new(0.49886626, 0, 0.301691502, 0)
+box.Size = UDim2.new(0.784580469, 8, 0.247444361, 8)
+box.Image = "rbxassetid://3570695787"
+box.ImageColor3 = Color3.fromRGB(125, 125, 125)
+box.ScaleType = Enum.ScaleType.Slice
+box.SliceCenter = Rect.new(100, 100, 100, 100)
+box.SliceScale = 0.040
+
+password.Name = "password"
+password.Parent = box
+password.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+password.BorderColor3 = Color3.fromRGB(44, 44, 44)
+password.Position = UDim2.new(0.0197739899, 0, 0.141184568, 0)
+password.Size = UDim2.new(0, 341, 0, 39)
+password.Font = Enum.Font.Gotham
+password.PlaceholderText = "Password"
+password.Text = ""
+password.TextColor3 = Color3.fromRGB(0, 0, 0)
+password.TextSize = 14.000
+password.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.AnchorPoint = Vector2.new(0.5, 0.5)
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 1.000
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.932061851, 0, 0.986253083, 0)
+main.Size = UDim2.new(0.119929932, 24, 0.354107589, 24)
+main.Image = "rbxassetid://3570695787"
+main.ImageColor3 = Color3.fromRGB(67, 67, 67)
+main.ScaleType = Enum.ScaleType.Slice
+main.SliceCenter = Rect.new(100, 100, 100, 100)
+main.SliceScale = 0.120
+
+Roundify.Name = "Roundify"
+Roundify.Parent = main
+Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Roundify.BackgroundTransparency = 1.000
+Roundify.BorderColor3 = Color3.fromRGB(138, 138, 138)
+Roundify.Position = UDim2.new(0.16329658, 0, 0.21886149, 0)
+Roundify.Size = UDim2.new(0.179432586, 24, 0.0699443966, 24)
+Roundify.Image = "rbxassetid://3570695787"
+Roundify.ImageColor3 = Color3.fromRGB(138, 138, 138)
+Roundify.ScaleType = Enum.ScaleType.Slice
+Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify.SliceScale = 0.120
+
+CrashSwag.Name = "Crash-Swag"
+CrashSwag.Parent = main
+CrashSwag.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+CrashSwag.BorderColor3 = Color3.fromRGB(138, 138, 138)
+CrashSwag.Position = UDim2.new(0.0709984601, 0, 0.168331847, 0)
+CrashSwag.Size = UDim2.new(0, 36, 0, 36)
+CrashSwag.Font = Enum.Font.PermanentMarker
+CrashSwag.Text = "Crash-Swag"
+CrashSwag.TextColor3 = Color3.fromRGB(0, 0, 0)
+CrashSwag.TextSize = 14.000
+
+Roundify_2.Name = "Roundify"
+Roundify_2.Parent = main
+Roundify_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Roundify_2.BackgroundTransparency = 1.000
+Roundify_2.BorderColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_2.Position = UDim2.new(0.798410535, 0, 0.216189563, 0)
+Roundify_2.Size = UDim2.new(0.182014346, 24, 0.0699443966, 24)
+Roundify_2.Image = "rbxassetid://3570695787"
+Roundify_2.ImageColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_2.ScaleType = Enum.ScaleType.Slice
+Roundify_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_2.SliceScale = 0.120
+
+GodX.Name = "GodX"
+GodX.Parent = main
+GodX.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+GodX.BorderColor3 = Color3.fromRGB(138, 138, 138)
+GodX.Position = UDim2.new(0.702239573, 0, 0.168331847, 0)
+GodX.Size = UDim2.new(0, 29, 0, 36)
+GodX.Font = Enum.Font.PermanentMarker
+GodX.Text = "GodX"
+GodX.TextColor3 = Color3.fromRGB(0, 0, 0)
+GodX.TextSize = 14.000
+
+Roundify_3.Name = "Roundify"
+Roundify_3.Parent = main
+Roundify_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Roundify_3.BackgroundTransparency = 1.000
+Roundify_3.BorderColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_3.Position = UDim2.new(0.16329658, 0, 0.424600512, 0)
+Roundify_3.Size = UDim2.new(0.179432586, 24, 0.0699443966, 24)
+Roundify_3.Image = "rbxassetid://3570695787"
+Roundify_3.ImageColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_3.ScaleType = Enum.ScaleType.Slice
+Roundify_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_3.SliceScale = 0.120
+
+RacePrem.Name = "RacePrem"
+RacePrem.Parent = main
+RacePrem.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+RacePrem.BorderColor3 = Color3.fromRGB(138, 138, 138)
+RacePrem.Position = UDim2.new(0.0709984601, 0, 0.374070853, 0)
+RacePrem.Size = UDim2.new(0, 30, 0, 36)
+RacePrem.Font = Enum.Font.PermanentMarker
+RacePrem.Text = "RacePrem"
+RacePrem.TextColor3 = Color3.fromRGB(0, 0, 0)
+RacePrem.TextSize = 14.000
+
+Roundify_4.Name = "Roundify"
+Roundify_4.Parent = main
+Roundify_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Roundify_4.BackgroundTransparency = 1.000
+Roundify_4.BorderColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_4.Position = UDim2.new(0.798410535, 0, 0.421928585, 0)
+Roundify_4.Size = UDim2.new(0.182014346, 24, 0.0699443966, 24)
+Roundify_4.Image = "rbxassetid://3570695787"
+Roundify_4.ImageColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_4.ScaleType = Enum.ScaleType.Slice
+Roundify_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_4.SliceScale = 0.120
+
+AutoDrop.Name = "AutoDrop"
+AutoDrop.Parent = main
+AutoDrop.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+AutoDrop.BorderColor3 = Color3.fromRGB(138, 138, 138)
+AutoDrop.Position = UDim2.new(0.702239573, 0, 0.374070853, 0)
+AutoDrop.Size = UDim2.new(0, 38, 0, 36)
+AutoDrop.Font = Enum.Font.PermanentMarker
+AutoDrop.Text = "AutoDrop"
+AutoDrop.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoDrop.TextSize = 14.000
+
+Roundify_5.Name = "Roundify"
+Roundify_5.Parent = main
+Roundify_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Roundify_5.BackgroundTransparency = 1.000
+Roundify_5.BorderColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_5.Position = UDim2.new(0.498925894, 0, 0.216189548, 0)
+Roundify_5.Size = UDim2.new(0.179432586, 24, 0.0699443966, 24)
+Roundify_5.Image = "rbxassetid://3570695787"
+Roundify_5.ImageColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_5.ScaleType = Enum.ScaleType.Slice
+Roundify_5.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_5.SliceScale = 0.120
+
+DhFuck.Name = "DhFuck"
+DhFuck.Parent = main
+DhFuck.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+DhFuck.BorderColor3 = Color3.fromRGB(138, 138, 138)
+DhFuck.Position = UDim2.new(0.404046088, 0, 0.165659904, 0)
+DhFuck.Size = UDim2.new(0, 26, 0, 36)
+DhFuck.Font = Enum.Font.PermanentMarker
+DhFuck.Text = "DhFuck"
+DhFuck.TextColor3 = Color3.fromRGB(0, 0, 0)
+DhFuck.TextSize = 14.000
+
+Roundify_6.Name = "Roundify"
+Roundify_6.Parent = main
+Roundify_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Roundify_6.BackgroundTransparency = 1.000
+Roundify_6.BorderColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_6.Position = UDim2.new(0.497635007, 0, 0.407821834, 0)
+Roundify_6.Size = UDim2.new(0.182014346, 24, 0.0699443966, 24)
+Roundify_6.Image = "rbxassetid://3570695787"
+Roundify_6.ImageColor3 = Color3.fromRGB(138, 138, 138)
+Roundify_6.ScaleType = Enum.ScaleType.Slice
+Roundify_6.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_6.SliceScale = 0.120
+
+Unban.Name = "Unban"
+Unban.Parent = main
+Unban.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+Unban.BorderColor3 = Color3.fromRGB(138, 138, 138)
+Unban.Position = UDim2.new(0.433472991, 0, 0.351326674, 0)
+Unban.Size = UDim2.new(0, 26, 0, 36)
+Unban.Font = Enum.Font.PermanentMarker
+Unban.Text = "Unban"
+Unban.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban.TextSize = 14.000
+
+-- Scripts:
+
+local function RTEIG_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local password = script.Parent.Parent.Parent.box.password
+	local main = script.Parent.Parent.Parent.Parent.main    --change these if you didnt do what i did
+	local login = script.Parent.Parent.Parent
+	
+	main.Visible = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if password.Text == "ffff" or
+			password.Text == "yoyo" then
+			login.Visible = false
+			main.Visible = true --subscribe to IamTow
+		end
+	end)
+end
+coroutine.wrap(RTEIG_fake_script)()
